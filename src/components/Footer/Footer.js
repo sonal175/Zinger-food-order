@@ -8,7 +8,7 @@ function Footer({ admin }) {
   const gmailHandler = () => {
     window.open(
       "mailto:" +
-      "piyushsati311999@gmail.com" +
+      "sonalmishra072001gmail.com" +
       "?subject=" +
       " " +
       "&body=" +
@@ -53,7 +53,7 @@ function Footer({ admin }) {
                 className="cursor-pointer"
                 alt="linkedin"
                 onClick={() => {
-                  router.push("https://www.linkedin.com/in/piyush-sati");
+                  router.push("https://www.linkedin.com/in/sonal-mishra-4335761a9/");
                 }}
               />
             </div>
@@ -65,7 +65,7 @@ function Footer({ admin }) {
                 objectFit="contain"
                 className="cursor-pointer"
                 alt="github"
-                onClick={() => router.push("https://github.com/Pinqua")}
+                onClick={() => router.push("https://github.com/sonal175")}
               />
             </div>
           </div>
@@ -73,7 +73,7 @@ function Footer({ admin }) {
         <p className="mt-6 text-gray-200 text-center flex items-center flex-wrap justify-center">
           Made with <HeartIcon className="w-5 mx-2 text-red-500" /> by
           <span className="text-white hover:underline ml-2">
-            <Link href="https://itspiyushsati.vercel.app">Piyush Sati</Link>
+            <Link href="https://itspiyushsati.vercel.app">Sonal Mishra</Link>
           </span>
         </p>
       </div>
